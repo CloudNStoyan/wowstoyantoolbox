@@ -1,0 +1,7 @@
+## Interface: 80300
+## Title: Stoyans Toolbox
+## Author: FirepsCreator
+## Version: 1.0.0
+## SavedVariables: StoyanCustomDB
+
+StoyansToolbox.lua
