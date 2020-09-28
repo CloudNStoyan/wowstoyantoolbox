@@ -16,7 +16,7 @@ function StoyanToolbox:BagUpdate()
               local sName, sLink, iRarity, iLevel, iMinLevel, sType, sSubType, iStackCount = GetItemInfo(link)  
               local now = time()
               if sName == "Bloodhunter's Quarry" then
-                self.db.global.bagLooted = now
+                stoyan.db.bagLooted = now
               end
            end
         end
@@ -24,7 +24,7 @@ function StoyanToolbox:BagUpdate()
 end
 
 function StoyanToolbox:CalculateNextBag()
-    local bagLooted = self.db.global.bagLooted
+    local bagLooted = stoyan.db.bagLooted
     local now = time()
 
     local oneHourEpoch = 3600
